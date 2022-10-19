@@ -35,13 +35,13 @@ stuffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   <div style="display: flex; height: 100%">
 
     <!-- modal content -->
-    <div style="width: 80%; background-color: black; color: white;">
+    <div style="background-color: black; color: white;">
       <WhalburgerButton {changeState}/>
-        <p style="padding-left: 20px">Some text in the Modal..</p>
+        <p style="padding-left: 20px; padding-right: 20px">Some text in the Modal..</p>
     </div>
 
     <!-- rest of space not used by modal -->
-    <div style="width: 20%; background-color: rgb(0,0,0,0.2)" on:click={changeState}>
+    <div style="background-color: rgb(0,0,0,0.2); flex: 1" on:click={changeState}>
 
     </div>
 
