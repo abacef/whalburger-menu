@@ -34,7 +34,7 @@
 
 
 <!-- Trigger/Open The Modal -->
-<button on:click={changeState}>Open Modal</button>
+<button on:click={changeState} style="font-size : 30px; height:50px; width:50px;">☰</button>
 
 <!-- The Modal -->
 <div id="myModal" style={modalStyle}>
