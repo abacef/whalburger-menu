@@ -25,7 +25,7 @@
 
 
 
-<WhalburgerButton {changeState}/>
+<WhalburgerButton {changeState} {modalEngaged} />
 <br>
 stuffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
@@ -36,7 +36,7 @@ stuffssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
     <!-- modal content -->
     <div style="background-color: black; color: white;">
-      <WhalburgerButton {changeState}/>
+      <WhalburgerButton {changeState} {modalEngaged}/>
         <p style="padding-left: 20px; padding-right: 20px">Some text in the Modal..</p>
     </div>
 
